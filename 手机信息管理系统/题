@@ -1,0 +1,77 @@
+题目：手机信息管理系统
+
+一、   语言环境 
+
+A、实现语言
+
+​	Python
+
+B、文件操作
+
+二、   功能要求
+
+实现手机信息管理的功能，主菜单包括菜单项：如图效果(1,2,3,4,5分别 实现功能，0的时候退出系统，其它的输入提示输入错误，请重新输入)
+
+![](http://zhangwei-imgs.oss-cn-beijing.aliyuncs.com/18-4-12/78030846.jpg)
+
+类名
+
+|      |         |      |       |
+| ---- | ------- | ---- | ----- |
+|      |         |      |       |
+| 1    | ID      | 序号 | int   |
+| 2    | Brand   | 品牌 | str   |
+| 3    | Model   | 型号 | str   |
+| 4    | Price   | 价格 | float |
+| 5    | Count   | 数量 | int   |
+| 6    | Version | 版本 | str   |
+
+
+
+三、   具体实现步骤
+
+1、创建3条测试数据：
+
+3、完成信息查询功能，如下图所示
+
+ 	![](http://zhangwei-imgs.oss-cn-beijing.aliyuncs.com/18-4-12/59523715.jpg)
+
+4、完成信息录入的功能。效果如下图
+
+![](http://zhangwei-imgs.oss-cn-beijing.aliyuncs.com/18-4-12/18889644.jpg)
+
+5、完成删除的功能，效果图如下所示
+
+![](http://zhangwei-imgs.oss-cn-beijing.aliyuncs.com/18-4-12/27763282.jpg)
+
+6、要删除的手机编号不存在
+
+![](http://zhangwei-imgs.oss-cn-beijing.aliyuncs.com/18-4-12/3876557.jpg)
+
+7、要删除的手机编号存在
+
+![](http://zhangwei-imgs.oss-cn-beijing.aliyuncs.com/18-4-12/19655707.jpg)
+
+8、完成根据手机品牌查询手机信息，要求使用模糊查询,效果如图所示
+
+![](http://zhangwei-imgs.oss-cn-beijing.aliyuncs.com/18-4-12/11964534.jpg)
+
+9、完成根据手机编号修改手机价格功能，效图所下图所示
+
+![](http://zhangwei-imgs.oss-cn-beijing.aliyuncs.com/18-4-12/3176515.jpg)
+
+10、        退出
+
+![](http://zhangwei-imgs.oss-cn-beijing.aliyuncs.com/18-4-12/97462456.jpg)
+
+ 
+
+11、        用户录入的选择不正确
+
+![](http://zhangwei-imgs.oss-cn-beijing.aliyuncs.com/18-4-12/23303110.jpg)
+
+ 
+
+ 
+
+ 
