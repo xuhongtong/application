@@ -1,0 +1,13 @@
+
+创建用户表
+create table user(
+id int auto_increment,
+name varchar(32),
+money decimal(7,2),
+constraint primary key(id)
+)
+
+插入数据
+insert into user(name,money)
+values('小王',1000),
+	  ('小李',500);

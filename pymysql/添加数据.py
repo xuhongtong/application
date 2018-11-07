@@ -15,8 +15,8 @@ def insert_many():
                          db=DB_NAME,
                          charset=CHARSET)
     with conn.cursor() as cursor:
-        values=[str(item) for item in range(11,21)]
-        sql="insert into category(cate_id) values (%s);"
+        values=[(3,'小红',2000),(4,'小花',3000)]
+        sql="insert into user(id,name,money) values (%s,%s,%s);"
         cursor.executemany(sql,values)
         conn.commit()
         if cursor.rowcount:
