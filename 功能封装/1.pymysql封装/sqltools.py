@@ -30,6 +30,7 @@ class InitMsql:
     def exec_sql(self, *args):
         self.cursor.execute(*args)
         self.conn.commit()
+        self.close()
 
     # 关闭连接
     def close(self):
