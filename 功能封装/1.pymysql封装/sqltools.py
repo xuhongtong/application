@@ -11,7 +11,7 @@ from settings import db
 '''
 
 
-class InitMsql:
+class InitMysql:
     def __init__(self):
         self.conn = self.conn_mysql
         self.cursor = self.get_cursor
@@ -40,7 +40,7 @@ class InitMsql:
 
 # 调用封装
 if __name__ == '__main__':
-    helper = InitMsql()
+    helper = InitMysql()
     sql = 'insert into phone(brand,model,price,count,version) values(3,3,3,3,3)'
 
     helper.exec_sql(sql)
